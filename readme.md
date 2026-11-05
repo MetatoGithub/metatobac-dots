@@ -13,6 +13,7 @@ Wallpaper credits go to [Hiroki Ree](https://www.pixiv.net/en/users/17341759) on
 - [x] FastFetch conf
 - [x] Launcher
 - [x] Wlogout
+- [x] Swaylock
 - [ ] ...
 - [ ] Keybinds and docs
 - [ ] Proper icon theme

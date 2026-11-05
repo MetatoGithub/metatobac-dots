@@ -1,0 +1,88 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+    "type": "small",
+    "source": "arch",
+    "color": {
+      "1": "#ff0045",
+      "2": "#ff0045"
+    },
+    "padding": {
+      "top": 2,
+      "left": 3,
+      "right": 3
+    }
+},
+    "display": {
+        "separator": "│   ",
+        "color": {
+              "keys": "#ff0045",
+              "title": "#ff0045",
+              "output": "#ff0045",
+              "separator": "#ff0045"
+        },
+        "constants": [
+            "──────────────"
+        ],
+        "key": {
+            "type": "string",
+            "paddingLeft": 0
+        }
+    },
+    "modules": [
+        {
+            "type": "custom",
+            "format": "╭{$1}╮"
+        },
+        {
+            "key": "│  User       ",
+            "type": "title"
+        },
+        {
+            "key": "│  OS         ",
+            "type": "os"
+        },
+        {
+            "key": "│ 󰇅 Machine    ",
+            "type": "host"
+        },
+        {
+            "key": "│  Kernel     ",
+            "type": "kernel"
+        },
+        {
+            "key": "│ 󰥔 Uptime     ",
+            "type": "uptime"
+        },
+        {
+            "key": "│ 󰹑 Resolution ",
+            "type": "display",
+            "compactType": "original-with-refresh-rate"
+        },
+        {
+            "key": "│  CPU        ",
+            "type": "cpu"
+        },
+        {
+            "key": "│  GPU        ",
+            "type": "gpu"
+        },
+        {
+            "key": "│  Memory     ",
+            "type": "memory"
+        },
+        {
+            "type": "custom",
+            "format": "├{$1}┤"
+        },
+        {
+            "key": "│  Colors     ",
+            "type": "colors",
+            "symbol": "circle"
+        },
+        {
+            "type": "custom",
+            "format": "╰{$1}╯"
+        }
+    ]
+}
