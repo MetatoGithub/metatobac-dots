@@ -9,10 +9,10 @@ Heavily inspired by [this reddit post](https://www.reddit.com/r/unixporn/comment
 Wallpaper credits go to [Hiroki Ree](https://www.pixiv.net/en/users/17341759) on Pixiv
 
 ## TODO
--[x] Waybar
--[x] FastFetch conf
--[x] Launcher
--[x] Wlogout
--[] ...
--[] Keybinds and docs
--[] Proper icon theme
+- [x] Waybar
+- [x] FastFetch conf
+- [x] Launcher
+- [x] Wlogout
+- [ ] ...
+- [ ] Keybinds and docs
+- [ ] Proper icon theme
